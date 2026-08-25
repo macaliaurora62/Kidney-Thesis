@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Se utilizzi questo codice, cita questa repository e la tesi associata."
+title: "Metodologie di Deep Learning per la classificazione automatica di tumori renali da imaging medico"
+type: software
+authors:
+  - family-names: Macali
+    given-names: Aurora
+date-released: 2026-08-24
+repository-code: "https://github.com/Aurora-Macali/Kidney-DL-Thesis"
+url: "https://github.com/Aurora-Macali/Kidney-DL-Thesis"

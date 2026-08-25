@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/content/drive/MyDrive/Kidney_YOLO_Results/ResNet50_YOLO_Separate/resnet50_yolo_separate_phase2_best.pt",
+  "selected_on": "validation_macro_f1",
+  "checkpoint_epoch": 3,
+  "best_validation_macro_f1": 0.838865484310623,
+  "test_samples": 1917,
+  "test_loss": 0.5716040545393629,
+  "test_accuracy": 0.8215962441314554,
+  "test_balanced_accuracy": 0.7845377538068579,
+  "test_macro_precision": 0.7995477419857402,
+  "test_macro_recall": 0.7845377538068579,
+  "test_macro_f1": 0.7652389226396041,
+  "test_macro_roc_auc_ovr": 0.9556953683440974,
+  "test_weighted_roc_auc_ovr": 0.9631959198290404
+}

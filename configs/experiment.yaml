@@ -1,0 +1,61 @@
+seed: 42
+
+classes:
+  - Cyst
+  - Normal
+  - Stone
+  - Tumor
+
+yolo:
+  architecture: yolo11n
+  class_name: kidney
+  epochs: 100
+  image_size: 640
+  batch_size: 16
+  patience: 20
+  confidence_threshold: 0.25
+  crop_nms_iou_threshold: 0.70
+
+cropping:
+  maximum_detections: 2
+  margin_ratio: 0.05
+  kidney_panel_size: 224
+  combined_width: 448
+  combined_height: 224
+  missing_panel: black
+
+classification:
+  architecture: resnet50
+  pretrained_weights: ImageNet
+  batch_size: 16
+  dropout: 0.35
+  checkpoint_metric: validation_macro_f1
+  phase_1:
+    epochs: 20
+    trainable: classifier
+    classifier_learning_rate: 0.001
+    patience: 6
+  phase_2:
+    epochs: 25
+    trainable:
+      - layer4
+      - classifier
+    layer4_learning_rate: 0.00001
+    classifier_learning_rate: 0.0001
+    patience: 7
+
+two_branch:
+  shared_encoder: true
+  fusion: masked_max_pooling
+  remove_black_padding: true
+
+evaluation:
+  test_only_after_model_selection: true
+  metrics:
+    - accuracy
+    - balanced_accuracy
+    - macro_precision
+    - macro_recall
+    - macro_f1
+    - macro_roc_auc_ovr
+    - confusion_matrix

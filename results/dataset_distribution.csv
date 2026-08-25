@@ -1,0 +1,6 @@
+class,train,validation,test,total,excluded
+Cyst,2521,577,561,3659,49
+Normal,3588,766,718,5072,5
+Stone,964,191,220,1375,1
+Tumor,1425,358,418,2201,79
+Total,8498,1892,1917,12307,134

@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/content/drive/MyDrive/Kidney_YOLO_Results/ResNet50_TwoBranch/two_branch_phase2_best.pt",
+  "selected_on": "validation_macro_f1",
+  "checkpoint_epoch": 7,
+  "best_validation_macro_f1": 0.8937482720985854,
+  "test_samples": 1917,
+  "test_loss": 0.33997194687007914,
+  "test_accuracy": 0.9128847157016171,
+  "test_balanced_accuracy": 0.8929618862112157,
+  "test_macro_precision": 0.9174880295811475,
+  "test_macro_recall": 0.8929618862112157,
+  "test_macro_f1": 0.8990710179331566,
+  "test_macro_roc_auc_ovr": 0.98831794952372,
+  "test_weighted_roc_auc_ovr": 0.9893735220679069
+}

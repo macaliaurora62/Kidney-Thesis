@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Dataset, checkpoint e output generati
+data/raw/
+data/processed/
+*.zip
+*.pt
+*.pth
+*.onnx
+runs/
+outputs/
+checkpoints/
+
+# File locali
+.DS_Store
+Thumbs.db
+*.log

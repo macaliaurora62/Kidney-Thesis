@@ -1,0 +1,3 @@
+model,best_validation_macro_f1,test_accuracy,test_balanced_accuracy,test_macro_f1,test_macro_roc_auc_ovr
+ResNet50 baseline,0.8389,0.8216,0.7845,0.7652,0.9557
+ResNet50 two branch,0.8937,0.9129,0.8930,0.8991,0.9883
