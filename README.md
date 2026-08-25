@@ -2,7 +2,7 @@
 
 Codice sperimentale della tesi **“Metodologie di Deep Learning per la classificazione automatica di tumori renali da imaging medico”** di Aurora Macali.
 
-Repository ufficiale: <https://github.com/Aurora-Macali/Kidney-DL-Thesis>
+Repository ufficiale: <https://github.com/macaliaurora62/Kidney-Thesis>
 
 La pipeline localizza le regioni renali con YOLO11n, costruisce due pannelli da 224×224 pixel e confronta:
 
